@@ -1,4 +1,4 @@
-# [fit] Concourse CI
+# ![inline](concourse-logo.png) Concourse CI
 ### https://concourse.ci/
 
 ---

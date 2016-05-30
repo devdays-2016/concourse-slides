@@ -87,4 +87,10 @@
 
 ---
 
+# Jobs
+- Combines resources and tasks.
+- Builds are an instance of a job.
+
+---
+
 # Demo

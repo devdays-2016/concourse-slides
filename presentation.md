@@ -39,6 +39,24 @@
 
 ---
 
+# Tasks
+- Run off of :whale: images
+- Exit 0 :white_check_mark:
+- Exit !0 :x:
+
+---
+
+# :no_entry: :whale: :no_entry:
+
+---
+
+# :no_entry: :whale: :no_entry:
+- Tasks run inside Garden :seedling: Container
+- Same primitive as Cloud Foundry
+- Compatible with Docker images, can even build them.
+
+---
+
 # Resources
 
 > A resource is any entity that can be checked for new versions, pulled down at a specific version, and/or pushed up to idempotently create new versions.

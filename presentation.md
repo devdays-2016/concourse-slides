@@ -10,6 +10,8 @@
   - Docker, all the way
 - Open Source
 
+^ Docker, sort of... we'll get into the architecture soon.
+
 ---
 
 # So we dug deeper...
@@ -31,7 +33,23 @@
 ---
 
 # Tasks
-"A task is the execution of a script in an isolated environment with dependent resources available to it."
+
+> A task is the execution of a script in an isolated environment with dependent resources available to it.
+-- concourse.ci
+
+---
+
+# Resources
+
+> A resource is any entity that can be checked for new versions, pulled down at a specific version, and/or pushed up to idempotently create new versions.
+-- concourse.ci
+
+---
+
+# Jobs
+
+> At a high level, a job describes some actions to perform when dependent resources change (or when manually triggered).
+-- concourse.ci
 
 ---
 

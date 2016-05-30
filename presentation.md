@@ -64,6 +64,22 @@
 
 ---
 
+# Resources - Get
+- Git resources
+- Time <- scheduler
+- S3 bucket
+- Etc.
+
+---
+
+# Resources - Put
+- Email
+- Slack/HipChat notification
+- GitHub Release
+- CF Deployment
+
+---
+
 # Jobs
 
 > At a high level, a job describes some actions to perform when dependent resources change (or when manually triggered).

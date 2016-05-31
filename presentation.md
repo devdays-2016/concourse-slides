@@ -22,6 +22,62 @@
 
 ---
 
+![](gen1.jpg)
+# CI - Gen 1
+- Started in 2001 with release of CruiseControl
+- First implementation of CI
+- Jobs configured with XML on the server
+- Centralized server
+- Polling model
+
+![inline](cruisecontrol-logo.png)
+
+^ Inspired by 1994 Grady Booch's Object-Oriented Analysis and Design with
+Applications and later in 1997 with Kent Beck and Ron Jeffries Extreme Program
+
+---
+
+![](gen2.jpg)
+
+# CI - Gen 2
+- Started in 2005 with release of Hudson (now Jenkins)
+- Slick GUI based configuration
+- Plugins and GUI based configuration
+- TeamCity released in 2006, Bamboo released in 2007
+
+![inline](jenkins-logo.png) ![inline](teamcity-logo.png) ![inline](bamboo-logo.png)
+
+^ These are probably the most popular Gen 2 CI servers.
+- Gen 1 centralization carried foward
+- Snowflake servers
+
+---
+
+![](gen3.jpg)
+
+# CI - Gen 3
+- Stated in 2011 with release of Travis
+- :cloud: based
+- Configuration done through file in repository
+- Running builds in containers
+- Real focus on deployment
+
+![inline](travisci-logo.png) ![inline](codeship-logo.png) ![inline](circleci-logo.png)
+
+---
+
+![](gen3plus.jpg)
+# CI - Gen 3+
+- Started in 2007 or later with GoCD
+- Concept of pipelines, real separation of build/deployment
+- Came out of Continuous Delivery book
+- ConcourseCI released in 2014
+- Inspired pipelines in Jenkins 2.x, GitLab, etc
+
+![inline](gocd-logo.png) ![inline](concourse-logo.png)
+
+---
+
 # Why did we look at this?
 - All configuration is source controlled
   - no GUI config even possible!

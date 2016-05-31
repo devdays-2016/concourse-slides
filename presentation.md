@@ -56,7 +56,7 @@ Applications and later in 1997 with Kent Beck and Ron Jeffries Extreme Program
 ![](gen3.jpg)
 
 # CI - Gen 3
-- Stated in 2011 with release of Travis
+- Started in 2011 with release of Travis
 - :cloud: based
 - Configuration done through file in repository
 - Running builds in containers

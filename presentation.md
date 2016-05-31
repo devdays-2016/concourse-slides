@@ -78,6 +78,16 @@ Applications and later in 1997 with Kent Beck and Ron Jeffries Extreme Program
 
 ---
 
+# Why Not Bamboo?
+- Gen 2 CI/CD
+- CD bolted on
+- APIs... what APIs?
+- Everything in GUI
+- :snowflake: everywhere
+- Scaling hard
+
+---
+
 # Why did we look at this?
 - All configuration is source controlled
   - no GUI config even possible!

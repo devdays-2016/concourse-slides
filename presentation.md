@@ -10,18 +10,25 @@
   - Docker, all the way
 - Open Source
 
+^ Configuration being source controlled makes the configuration highly
+portable. The need to nurture a a unique snowflake build server (like
+bamboo) are removed.
+
 ^ Docker, sort of... we'll get into the architecture soon.
 
 ---
 
 # So we dug deeper...
 - very scalable
-  - just add `workers` which host containers
+  - just add stateless `workers` which host containers
   - lots of parallelism
 - debuggable builds
   - `hijack` recent builds
-- add your own resources
+- add your own resources (any language)
   - as long as they support basic API
+
+^ Resources are executables that need to support a basic contract
+and can thus be in any language- could even be a shell script.
 
 ---
 
@@ -51,7 +58,7 @@
 ---
 
 # :no_entry: :whale: :no_entry:
-- Tasks run inside Garden :seedling: Container
+- Tasks run inside Garden Container :seedling: :herb: :blossom:
 - Same primitive as Cloud Foundry
 - Compatible with Docker images, can even build them.
 

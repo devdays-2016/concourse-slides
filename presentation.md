@@ -192,6 +192,15 @@ and can thus be in any language- could even be a shell script.
 
 ---
 
+# Fly :airplane:
+
+- `fly -t ci login -c http://concourse.otpp.me`
+- `fly -t ci set-pipeline -p hello-spring-boot -c pipeline.yml -l credentials.yml`
+- `fly -t ci trigger-job -j hello-spring-boot/build`
+- `fly -t ci watch -j hello-spring-boot/build`
+
+---
+
 ![300%](devops-rainbow.jpg)
 
 ^ Looks like fantastic DevOps magic
@@ -225,6 +234,7 @@ and can thus be in any language- could even be a shell script.
  - Although binary install available
 - No ACL support yet
 - Small community, not a lot of plugins yet
+- Documentation lacking
 - No commercial support yet
 
 ^ Community might stay small with the strong focus on BOSH. Tile is probably

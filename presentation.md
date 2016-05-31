@@ -214,3 +214,17 @@ and can thus be in any language- could even be a shell script.
 - Easy debugging of builds
 - Theoritically easy deploy on PCF
 - Open Source
+
+---
+
+![right 90%](devops-rainbow-poop.png)
+
+# Cons
+- BOSH is primary deployment platform
+ - Although binary install available
+- No ACL support yet
+- Small community, not a lot of plugins yet
+- No commercial support yet
+
+^ Community might stay small with the strong focus on BOSH. Tile is probably
+coming soon.

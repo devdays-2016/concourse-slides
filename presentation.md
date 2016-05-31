@@ -24,8 +24,11 @@ bamboo) are removed.
   - lots of parallelism
 - debuggable builds
   - `hijack` recent builds
-- add your own resources
+- add your own resources (any language)
   - as long as they support basic API
+
+^ Resources are simple binaries that need to support a basic contract
+and can thus be in any language or script.
 
 ---
 

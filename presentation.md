@@ -27,8 +27,8 @@ bamboo) are removed.
 - add your own resources (any language)
   - as long as they support basic API
 
-^ Resources are simple binaries that need to support a basic contract
-and can thus be in any language or script.
+^ Resources are executables that need to support a basic contract
+and can thus be in any language- could even be a shell script.
 
 ---
 

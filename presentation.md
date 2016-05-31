@@ -88,11 +88,11 @@ Applications and later in 1997 with Kent Beck and Ron Jeffries Extreme Program
 
 ---
 
-# Why did we look at this?
+# Why Concourse?
 - All configuration is source controlled
   - no GUI config even possible!
 - Isolated builds
-  - Docker, all the way
+  - Docker, all the down :turtle:
 - Open Source
 
 ^ Configuration being source controlled makes the configuration highly
@@ -104,13 +104,13 @@ bamboo) are removed.
 ---
 
 # So we dug deeper...
-- very scalable
-  - just add stateless `workers` which host containers
-  - lots of parallelism
-- debuggable builds
+- Very scalable
+  - Just add stateless `workers` which host containers
+  - Lots of parallelism
+- Debuggable builds
   - `hijack` recent builds
-- add your own resources (any language)
-  - as long as they support basic API
+- Add your own resources (any language)
+  - As long as they support basic API
 
 ^ Resources are executables that need to support a basic contract
 and can thus be in any language- could even be a shell script.
@@ -118,9 +118,9 @@ and can thus be in any language- could even be a shell script.
 ---
 
 # Three core concepts
-1. tasks
-2. resources
-3. jobs
+1. Tasks
+2. Resources
+3. Jobs
 
 ---
 
@@ -144,7 +144,8 @@ and can thus be in any language- could even be a shell script.
 
 # :no_entry: :whale: :no_entry:
 - Tasks run inside Garden Container :seedling: :herb: :blossom:
-- Same primitive as Cloud Foundry
+ - Same primitive as Cloud Foundry
+ - :penguin: :house_with_garden:
 - Compatible with Docker images, can even build them.
 
 ---

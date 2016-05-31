@@ -20,7 +20,7 @@ bamboo) are removed.
 
 # So we dug deeper...
 - very scalable
-  - just add `workers` which host containers
+  - just add stateless `workers` which host containers
   - lots of parallelism
 - debuggable builds
   - `hijack` recent builds

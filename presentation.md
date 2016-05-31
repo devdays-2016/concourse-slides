@@ -51,7 +51,7 @@
 ---
 
 # :no_entry: :whale: :no_entry:
-- Tasks run inside Garden :seedling: Container
+- Tasks run inside Garden Container :seedling: :herb: :blossom:
 - Same primitive as Cloud Foundry
 - Compatible with Docker images, can even build them.
 

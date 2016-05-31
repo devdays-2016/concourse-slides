@@ -10,6 +10,10 @@
   - Docker, all the way
 - Open Source
 
+^ Configuration being source controlled makes the configuration highly
+portable. The need to nurture a a unique snowflake build server (like
+bamboo) are removed.
+
 ^ Docker, sort of... we'll get into the architecture soon.
 
 ---

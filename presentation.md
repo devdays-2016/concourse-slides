@@ -3,6 +3,25 @@
 
 ---
 
+# Another CI Platform?
+
+---
+
+![original 140%](jackie-what-is-ci.jpg)
+
+---
+
+# CI == Continuous Integration
+
+---
+
+# Continuous Integration
+- Run unit/integration tests on checkin/push
+- Run on a platform closer to production
+- Continuously integrate with master regularly
+
+---
+
 # Why did we look at this?
 - All configuration is source controlled
   - no GUI config even possible!

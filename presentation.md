@@ -188,3 +188,29 @@ and can thus be in any language- could even be a shell script.
 
 ![](demo.jpg)
 # Demo
+
+---
+
+![300%](devops-rainbow.jpg)
+
+^ Looks like fantastic DevOps magic
+
+---
+
+![](devops-rainbow-poop.png)
+
+^ But of course nothing is rainbows and butterfly
+
+---
+
+![right](devops-rainbow.jpg)
+
+# Pros
+- Configurations in source control!
+- Isolated builds
+- First class pipelines
+- Easy to scale
+- Build local code on CI
+- Easy debugging of builds
+- Theoritically easy deploy on PCF
+- Open Source
